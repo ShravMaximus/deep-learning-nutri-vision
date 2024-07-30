@@ -12,9 +12,9 @@ The project consists of the following main steps:
 
 ## Requirements
 - Python 3.x
-- Libraries: Pandas, Scikit-learn, Pytorch, Tensorflow, Keras, Matplotlib
+- Libraries: Pandas, Scikit-learn, Pytorch, Tensorflow, Keras, Matplotlib, streamlit
 - Hardware: GPU
-- Environment: VSCode, Jupyter Notebook
+- Environment: VSCode, Jupyter Notebook, Node JS for web app
 
 ## Usage
 1. Data Downloading, Exploratory, and Preprocessing
@@ -23,7 +23,7 @@ The project consists of the following main steps:
 2. Model Creation and Training, Hyperparamter Tunning to improve performance
     - For basic CNN and EfficientNet: run python3 shrabhat-munging-experimentation-llm.py
     - For RexNet150: run the script vynguyen_rexnet150.ipynb
-    - For M-GCN and ADD-GCN: For training them, run main.py with the best params mentioned in the model. This will give checkpoint_best.pth files in checkpoint folder. For testing these models, run the script test_model.ipynb with model_name as ADD-GCN or M-GCN, checkpoint_best.pth file path and appropriate default parameters.
+    - For M-GCN and ADD-GCN: For training them, run main.py with the best params mentioned in the model. This will give checkpoint_best.pth files in checkpoint folder. For testing these models, run the script test_model.ipynb with model_name as ADD-GCN or M-GCN, checkpoint_best.pth file path and appropriate default parameters. For example, ``python main.py --data Indian --data_root_dir ./datasets  -i 224  --save_dir ./checkpoint/Indian --lr 0.1 --wd 0.001 --momentum 0.5``
     - For the final nutritional analysis - go to M-GCN/test folder and run the command ``streamlit run app.py`` to deploy the web app in localhost and we can upload images to test the nutritional and calorie analysis of dishes. Needs streamlit, Node JS packages.
 3. Model Evaluation and Prediction
     - The models were evaluated against their history of loss and accuracy over training epochs. The resulting models exhibited desired training and validation accuracy over 0.7 and a consistent decreasing trend in both training and validation loss.
