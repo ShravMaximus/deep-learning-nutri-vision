@@ -4,6 +4,7 @@ Nutritionists, dietitians, health-conscious individuals, and food service provid
 
 ## Project Overview
 The project consists of the following main steps:
+
     1. Data collection and preprocessing
     2. Deep learning models implementation and training
     3. Model evaluation and prediction
@@ -11,12 +12,14 @@ The project consists of the following main steps:
     5. Web GUI deployment
 
 ## Requirements
+
     - Python 3.x
     - Libraries: Pandas, Scikit-learn, Pytorch, Tensorflow, Keras, Matplotlib
     - Hardware: GPU
     - Environment: VSCode, Jupyter Notebook
 
 ## Usage
+
     1. Data Downloading, Exploratory, and Preprocessing
         - Running the script: rt_indian_data_processing.ipynb
     2. Model Creation and Training, Hyperparamter Tunning to improve performance
@@ -29,6 +32,7 @@ The project consists of the following main steps:
         - Actual and predicted labels are plotted on images for comparison.
 
 ## Results
+
     - Through rigorous experimentation and hyperparameter tuning, we validated our models using against quantitative and qualitative evidence. Advanced architectures and precise hyperparameter tuning significantly improved model performance. In contrast, data augmentation did not show any notable benefits for model performance.
 
     - Models like ADD-GCN and M-GCN demonstrated superior performance compared to basic CNN, RexNet150, and EfficientNet. These advanced architectures leverage CNNs for feature extraction and attention-driven transformers to capture complex patterns within the dataset. M-GCN's memory mechanisms enhanced its ability to learn intricate label relationships, while ADD-GCN's dynamic attention mechanisms captured nuanced, context-aware data representations.
@@ -36,6 +40,7 @@ The project consists of the following main steps:
     - Ultimately, ADD-GCN emerged as the top performer due to its superior adaptation capabilities, effectively managing the complexity and variability of our dataset. Its ability to dynamically adjust the importance of nodes and edges in the graph allowed it to capture more detailed and contextually relevant information, leading to superior performance in image classification tasks.
 
 ## Limitation and Future Work
+
     - The model is trained and tested exclusively on Indian cuisine dishes, which may limit its generalization to other cuisines and introduce bias toward certain ingredients. 
     - Incorporated with datasets from a wider variety of cuisines to improve model generalization.
     - Exploring advanced graph-based and hybrid models to enhance performance.
