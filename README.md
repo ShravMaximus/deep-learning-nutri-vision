@@ -38,13 +38,16 @@ The project consists of the following main steps:
 - Ultimately, ADD-GCN emerged as the top performer due to its superior adaptation capabilities, effectively managing the complexity and variability of our dataset. Its ability to dynamically adjust the importance of nodes and edges in the graph allowed it to capture more detailed and contextually relevant information, leading to superior performance in image classification tasks.
 
 - Training and Validation Losses across models
+
 **![Alt Text](./images/TL.png)**
 **![Alt Text](./images/VL.png)**
 
 - Label Prediction on test images
+
 **![Alt Text](./images/TestImgs.png)**
 
 - Nutrional Information via LLM
+
 **![Alt Text](./images/LLM3.png)**
 **![Alt Text](./images/LLM5.png)**
 
