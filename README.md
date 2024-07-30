@@ -42,11 +42,11 @@ The project consists of the following main steps:
 **![Alt Text](./images/VL.png)**
 
 - Label Prediction on test images
-**![Alt Text](./images/TestImgs)**
+**![Alt Text](./images/TestImgs.png)**
 
 - Nutrional Information via LLM
-**![Alt Text](./images/LLM3)**
-**![Alt Text](./images/LLM5)**
+**![Alt Text](./images/LLM3.png)**
+**![Alt Text](./images/LLM5.png)**
 
 
 ## Limitation and Future Work
