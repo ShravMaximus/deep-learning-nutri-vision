@@ -18,7 +18,8 @@ The project consists of the following main steps:
 
 ## Usage
 1. Data Downloading, Exploratory, and Preprocessing
-    - Running the script: rt_indian_data_processing.ipynb
+    - Data source: https://www.kaggle.com/datasets/ritiksharma07/80-indian-cuisines-for-classification-projects
+    - Running the script to preprocess data: rt_indian_data_processing.ipynb
 2. Model Creation and Training, Hyperparamter Tunning to improve performance
     - For basic CNN and EfficientNet: run python3 shrabhat-munging-experimentation-llm.py
     - For RexNet150: run the script vynguyen_rexnet150.ipynb
