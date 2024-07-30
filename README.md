@@ -36,7 +36,7 @@ The project consists of the following main steps:
 - Ultimately, ADD-GCN emerged as the top performer due to its superior adaptation capabilities, effectively managing the complexity and variability of our dataset. Its ability to dynamically adjust the importance of nodes and edges in the graph allowed it to capture more detailed and contextually relevant information, leading to superior performance in image classification tasks.
 
 ## Limitation and Future Work
-- The model is trained and tested exclusively on Indian cuisine dishes, which may limit its generalization to other cuisines and introduce bias toward certain ingredients. 
+The model is trained and tested exclusively on Indian cuisine dishes, which may limit its generalization to other cuisines and introduce bias toward certain ingredients. To improve model performance and generalization, things can be done as followed:
 - Incorporated with datasets from a wider variety of cuisines to improve model generalization.
 - Exploring advanced graph-based and hybrid models to enhance performance.
 - Developing real-time, user-friendly food recognition applications.
