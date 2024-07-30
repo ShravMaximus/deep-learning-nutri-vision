@@ -1,2 +1,4 @@
-
-*.pth
+*.DS_Store
+M-GCN/.DS_Store
+M-GCN/train/checkpoint/.DS_Store
+.DS_Store
