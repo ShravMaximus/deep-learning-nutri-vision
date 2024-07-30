@@ -41,6 +41,14 @@ The project consists of the following main steps:
 **![Alt Text](./images/TL.png)**
 **![Alt Text](./images/VL.png)**
 
+- Label Prediction on test images
+**![Alt Text](./images/TestImgs)**
+
+- Nutrional Information via LLM
+**![Alt Text](./images/LLM3)**
+**![Alt Text](./images/LLM5)**
+
+
 ## Limitation and Future Work
 The model is trained and tested exclusively on Indian cuisine dishes, which may limit its generalization to other cuisines and introduce bias toward certain ingredients. To improve model performance and generalization, things can be done as followed:
 - Incorporated with datasets from a wider variety of cuisines to improve model generalization.
